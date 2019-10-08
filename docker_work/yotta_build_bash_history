@@ -1,0 +1,83 @@
+    1  ls
+    2  python
+    3  sudo apt-get install python
+    4  apt-get install python
+    5  apt-get update
+    6  apt-get install python
+    7  ls
+    8  apt-get install git
+    9  python --version
+   10  python
+   11  clear
+   12  ls
+   13  ls /
+   14  cd
+   15  ls
+   16  pwd
+   17  apt-get install cmake ninja-build gcc-arm-none-eabi srecord libssl-dev
+   18  pip install yotta
+   19  apt-get install python-pip
+   20  pip install yotta
+   21  ls
+   22  mkdir src
+   23  cd src/
+   24  git clone https://github.com/hackgnar/radiobit
+   25  ls
+   26  cd radiobit/
+   27  ls
+   28  cd micropython/
+   29  yt target bbc-microbit-clasic-gcc-nosd
+   30  add-apt-repository ppa:team-gcc-arm-embedded/ppa
+   31  apt-cache search add-apt
+   32  apt-cache search add-apt-repository
+   33  apt-get install software-properties-common
+   34  add-apt-repository ppa:team-gcc-arm-embedded/ppa
+   35  apt-get update
+   36  apt-get install gcc-arm-embedded
+   37  apt-get remove gcc-arm-none-eabi
+   38  apt-get install gcc-arm-embedded
+   39  apt-get remove binutils-arm-none-eabi
+   40  apt-get install gcc-arm-embedded
+   41  history 
+   42  yt target bbc-microbit-clasic-gcc-nosd
+   43  yt target bbc-microbit-classic-gcc-nosd
+   44  python --version
+   45  yt up
+   46  ls
+   47  yt -v target bbc-microbit-classic-gcc-nosd
+   48  yt -vvv target bbc-microbit-classic-gcc-nosd
+   49  ls /usr/lib/python2.7/
+   50  pip --version
+   51  pip install yotta
+   52  vi /usr/local/lib/python2.7/dist-packages/yotta/lib/version.py
+   53  apt-get install vim
+   54  vi /usr/local/lib/python2.7/dist-packages/yotta/lib/version.py
+   55  yt target bbc-microbit-classic-gcc-nosd
+   56  yt target -vvv bbc-microbit-classic-gcc-nosd
+   57  yt -vvv target bbc-microbit-classic-gcc-nosd
+   58  vi /usr/local/lib/python2.7/dist-packages/yotta/lib/version.py
+   59  yt target bbc-microbit-classic-gcc-nosd
+   60  yt up
+   61  yt build
+   62  apt-get install ninja-build
+   63  make all
+   64  ls
+   65  ls build/
+   66  make clean
+   67  ls
+   68  rm -rf build/
+   69  make all
+   70  ls build/
+   71  md5sum build/firmware.hex 
+   72  md5sum ../precompiled/radiobit.hex 
+   73  ifco
+   74  ifconfig
+   75  ip add
+   76  scp build/firmware.hex ripper@192.168.86.39:~
+   77  ls
+   78  history 
+   79  ls
+   80  ls /root/
+   81  ls -a /root/
+   82  history 
+   83  history > yotta_build_bash_history
